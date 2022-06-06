@@ -1,1 +1,4 @@
-console.log('Hallo daar!');
+import {fetchCountry} from "./functions/fetchCountry";
+
+
+fetchCountry();
