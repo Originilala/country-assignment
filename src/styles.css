@@ -1,0 +1,78 @@
+h1 {
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+}
+
+header div {
+    width: 100%;
+    /*min-height: 300px;*/
+    aspect-ratio: 1500/900;
+    background-image: url("./assets/world_map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#country-list {
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 5000px;
+}
+
+ul li {
+    list-style-type: none;
+    height: 50px;
+    /*flex-basis: 10px;*/
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    /*border: 1px solid red;*/
+}
+
+img {
+    width: 20px;
+}
+
+img + p {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 0px;
+    max-height: 15px;
+}
+
+img + p + p {
+    display: block;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.blue-text {
+    color: lightskyblue;
+}
+
+.green-text {
+    color: lightgreen;
+}
+
+.red-text {
+    color: lightcoral;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.purple-text {
+    color: mediumpurple;
+}
+
+.normal-text {
+    color: lightgrey;
+}
